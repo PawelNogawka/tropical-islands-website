@@ -1,13 +1,88 @@
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  &__heading {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    color: $text-dark;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  &__info {
+    text-align: center;
+    font-size: 1.5rem;
+    color: $text-light;
+    max-width: 50rem;
+    text-align: center;
+  }
+
+  &__line {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 0.2rem;
+    background-color: $main;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.section-padding {
+  padding: 4rem 2rem;
+}
+
 .shape {
   position: absolute;
   left: 0;
-width: 100%;
-height: 15rem;
+  width: 100%;
+  height: 12rem;
+  z-index: 10;
 
   &--top {
     top: 0;
+    transform: rotateX(180deg);
+    height: 7rem
   }
   &--bottom {
     bottom: 0;
+  }
+}
+
+.tooltip{
+  position: absolute;
+  padding: 3rem;
+  min-width: 30rem;
+  text-align: center;
+  z-index:10000;
+  background-color: $white;
+  color: $text-dark;
+  border-radius: 1rem;
+  font-size:2.4rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.btn-animation{
+  transition: background-color .3s linear;
+
+    &:hover{
+      background-color: $third;
+      animation: shake .3s linear;
+    }
+}
+
+@media (min-width: 776px) {
+  .section-header {
+    margin-bottom: 10rem;
+    &__heading {
+      font-size: 4rem;
+    }
   }
 }

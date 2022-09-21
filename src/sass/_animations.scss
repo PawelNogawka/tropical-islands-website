@@ -1,0 +1,56 @@
+@keyframes animateHeading {
+  0% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 0.3rem;
+  }
+
+  3% {
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 0.3rem;
+  }
+  25% {
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 0.3rem;
+  }
+  28% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+  100% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 0.3rem;
+  }
+}
+@keyframes slider {
+
+  25% {
+    background-image: $purple-gradient-light, url("../images/hero-2.jpg");
+  }
+  50% {
+    background-image: $purple-gradient-light, url("../images/hero-3.jpg");
+  }
+
+  75% {
+    background-image: $purple-gradient-light, url("../images/hero-4.jpg");
+  }
+  100% {
+    background-image: $purple-gradient-light, url("../images/hero-1.jpg");
+  }
+}
+
+@keyframes shake {
+  33%{
+    transform: rotate(10deg);
+  }
+  66%{
+    transform: rotate(-10deg);
+  }
+  100%{
+    transform: rotate(10deg);
+  }
+}

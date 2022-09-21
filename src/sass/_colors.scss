@@ -1,11 +1,18 @@
 $main: #7b30ad;
 $text-dark: #4d4d4d;
 $text-light: #777777;
+$third:rgba(120, 226, 111, 1);
+$focus:#ed1710;
 $white:#ffffff;
 $purple-gradient: linear-gradient(
   90deg,
-  rgba(123, 48, 173, 0.8) 100%,
-  rgba(113, 11, 168, 0.8) 100%
+  rgba(123, 48, 173, 1) 100%,
+  rgba(113, 11, 168, 1) 100%
+);
+$purple-gradient-light: linear-gradient(
+  90deg,
+  rgba(123, 48, 173, .7) 100%,
+  rgba(113, 11, 168, .7) 100%
 );
 
 $green-gradient: linear-gradient(
