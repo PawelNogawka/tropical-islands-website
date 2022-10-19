@@ -14,4 +14,4 @@ When I created this website I learned how to create:
 - I learned how to implement a vector that I downloaded from the figma application and how to make it responsive
 
 I used technologies such as:
-- HTM
+- HTML, CSS, JS, SCSS, GULP, BEM.
