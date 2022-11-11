@@ -1,5 +1,5 @@
 # tropical-islands-website
-Github pages link: https://github.com/PawelNogawka/tropical-islands-website/deployments/activity_log?environment=github-pages
+Github pages link: https://pawelnogawka.github.io/tropical-islands-website/
 
 When I created this website I learned how to create:
 
