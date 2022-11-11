@@ -1,4 +1,6 @@
 # tropical-islands-website
+Github pages link: https://github.com/PawelNogawka/tropical-islands-website/deployments/activity_log?environment=github-pages
+
 When I created this website I learned how to create:
 
 - Animated h1 on the start page
